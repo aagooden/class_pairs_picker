@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title></title>
+</head>
+d
+
+<form method= "post" action ="checkname">
+  <input type = "hidden" name= "first_name" value="<%=first_name%>">
+
+  <%session[:namearray].each do |pairs| %>
+<input type = "checkbox" name = "teams[]" value ='<%=pairs.join(',')%>'>
+    <%=pairs.join(', ')%><br>
+  <%end%>
+  <input type="submit" value="next">
+
+</body>
+</html>
