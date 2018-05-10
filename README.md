@@ -10,7 +10,7 @@ $ https://github.com/aagooden/class_pairs_picker
 ### To Start The App:
 Enter in terminal in directory where app was cloned
 ```sh
-$ app.rb
+$ ruby app.rb
 ```
 
 ### System Requirements:
